@@ -31,7 +31,7 @@ tags:
       Send marketing emails and newsletters through the bulk stream optimized for high-volume sending.
 
       {% hint style="info" %}
-      Learn more about [Bulk Stream](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/get-started-bulk-stream) and when to use it.
+      Learn more about [Bulk Stream](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream) and when to use it.
       {% endhint %}
 
 paths:

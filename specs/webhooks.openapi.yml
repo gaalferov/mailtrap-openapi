@@ -8,7 +8,7 @@ info:
     Webhooks allow you to receive all information about your deliverability and activities within your account almost in real-time. Instead of polling for updates, Mailtrap sends HTTP POST requests to your endpoint when events occur.
 
     {% hint style="info" %}
-    For setup instructions and configuration details, see the [Webhooks Guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/webhooks).
+    For setup instructions and configuration details, see the [Webhooks Guide](https://docs.mailtrap.io/email-api-smtp/advanced/webhooks).
     {% endhint %}
 
     ## Event Types
@@ -102,7 +102,7 @@ webhooks:
         - Return HTTP 200 to acknowledge receipt
         - Process events asynchronously
 
-        [Webhook setup guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/webhooks)
+        [Webhook setup guide](https://docs.mailtrap.io/email-api-smtp/advanced/webhooks)
       operationId: receiveEventsJSON
       tags:
         - json-handler
@@ -437,7 +437,7 @@ webhooks:
         - Return HTTP 200 to acknowledge receipt
         - Process events asynchronously
 
-        [Webhook setup guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/webhooks)
+        [Webhook setup guide](https://docs.mailtrap.io/email-api-smtp/advanced/webhooks)
       operationId: receiveEventsJSONLines
       tags:
         - jsonlines-handler
