@@ -3756,6 +3756,13 @@ paths:
                 example: '{:errors=>"Inbox is not active or you have insufficient permissions"}'
         '404':
           $ref: '#/components/responses/NOT_FOUND'
+        '409':
+          description: Returns conflict error message. Text body does not exist.
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Conflict
       x-codeSamples:
         - lang: javascript
           label: Node.js
@@ -3892,6 +3899,13 @@ paths:
                 example: '{:errors=>"Inbox is not active or you have insufficient permissions"}'
         '404':
           $ref: '#/components/responses/NOT_FOUND'
+        '409':
+          description: Returns conflict error message. Raw body does not exist.
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Conflict
       x-codeSamples:
         - lang: javascript
           label: Node.js
@@ -4007,6 +4021,13 @@ paths:
                 example: '{:errors=>"Inbox is not active or you have insufficient permissions"}'
         '404':
           $ref: '#/components/responses/NOT_FOUND'
+        '409':
+          description: Returns conflict error message. HTML source does not exist.
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Conflict
       x-codeSamples:
         - lang: javascript
           label: Node.js
@@ -4120,6 +4141,13 @@ paths:
                     example: Inbox is not active or you have insufficient permissions
         '404':
           $ref: '#/components/responses/NOT_FOUND'
+        '409':
+          description: Returns conflict error message. HTML source does not exist.
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Conflict
       x-codeSamples:
         - lang: javascript
           label: Node.js
@@ -4257,6 +4285,13 @@ paths:
               example: '{:errors=>"Inbox is not active or you have insufficient permissions"}'
         '404':
           $ref: '#/components/responses/NOT_FOUND'
+        '409':
+          description: Returns conflict error message. .eml body does not exist.
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Conflict
       x-codeSamples:
         - lang: javascript
           label: Node.js
