@@ -1,0 +1,7 @@
+extends: ["spectral:oas"]
+
+rules:
+  # You can customize rules here. 
+  # For example, to disable a specific rule:
+  # operation-description: off
+
