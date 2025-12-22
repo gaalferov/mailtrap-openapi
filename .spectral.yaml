@@ -1,7 +1,7 @@
-extends: ["spectral:oas"]
+extends: spectral:oas
 
 rules:
-  # You can customize rules here. 
-  # For example, to disable a specific rule:
-  # operation-description: off
+  # Disable validation of examples for non-JSON media types (like jsonl)
+  # because Spectral tries to parse them as JSON and fails on multi-line/concatenated JSON
+  oas3-valid-media-example: off
 
