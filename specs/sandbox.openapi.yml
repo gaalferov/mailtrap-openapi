@@ -3158,7 +3158,7 @@ paths:
                 ->messages($accountId, $inboxId);
 
             $response = $sandboxMessages->getList();
-            var_dump($response->getStatusCode());
+            var_dump(ResponseHelper::toArray($response));
         - lang: python
           label: Python
           source: |
@@ -4087,7 +4087,7 @@ paths:
             
             $sandboxMessages = (new MailtrapSandboxClient($config))->messages($accountId, $inboxId);
             
-            $messageId = $_ENV['MAILTRAP_INBOX_MESSAGE_ID'];
+            $messageId = $_ENV['MAILTRAP_MESSAGE_ID'];
             $response = $sandboxMessages->getSource($messageId);
             var_dump(ResponseHelper::toString($response));
         - lang: python
